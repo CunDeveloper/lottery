@@ -1,0 +1,60 @@
+body,div,h1,h2,h3,h4,h5,h6,p,section,header,footer,article{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin-left: 70px;
+	margin-right: 70px;
+}
+header{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+footer{
+	margin-top: 15px;
+}
+hr{
+	width: 100%;
+	height: 2px;
+	background: red;
+	border:0;
+	display: none;
+	 
+}
+.small_image{
+	width: 5%;
+	height: auto;
+	padding-right: 20px;
+}
+.main{
+	width: 100%;
+	height: 60%;
+	margin-bottom: 15px;
+}
+.label{
+	clear: both;
+}
+.big_head_icon{
+	display: block;
+	width: 500px;
+	margin: 0 auto;
+	height: 500px;
+}
+.display_container{
+	width: 60%;
+	background: #000000;
+	text-align: center;
+	float: left;
+}
+.winner_list{
+	width: 40%;
+	background: #ccc;
+	float: left;
+	height: 500px;
+	position:relative;
+	top: 0px;
+
+}
+.head_icon_container{
+	margin-bottom: 50px;
+}
