@@ -1,28 +1,31 @@
 <!doctype html>
-<html lang="en">
+<html >
 <head>
   <meta charset="utf-8">
-  <title>jQuery UI Dialog - Modal message</title>
+  <title></title>
   <link rel="stylesheet" href="src/jquery-ui.css">
-  <link rel="stylesheet" href="src/index.css">
+  <link rel="stylesheet" href="index.css">
   <script src="src/jquery.js"></script>
   <script src="src/jquery-ui.js"></script>
-  <script src="src/lottery.js"></script>
-  <script src="src/index.js"></script>
+  
+  <script src="lottery.js"></script>
+  <script src="index.js"></script>
 </head>
 <body>
 <header>
-  <h2>ebay 2015 年终随机抽奖</h2>
+  <h1 class ="title">ebay 2015 年终随机抽奖</h1>
+  <H2 class ="date" id ="date"></H2>
 </header>
+<div class ="clear_float"></div>
 <section>
   <div  id="main">
-    <div id ="display_image">
-      <img id="bigImg">
+    <div id ="show_container">
+      <img id="bigPic">
     </div>
-    <div  id="winner_list"></div>
+    <div  id="awards_list"></div>
   </div>
 </section>
-<div class ="label"></div>
+<div class ="clear_float"></div>
 <section>
   <div id="dialog" title="导入图片">
   <p>
@@ -36,8 +39,7 @@
 
 <footer>
   <hr/>
-  <div class ="head_icon_container" id="head_icon_container">
-  </div>
+  <div class ="header_container" id="header_container"></div>
 </footer>
 </body>
 </html>
