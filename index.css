@@ -13,6 +13,7 @@ header{
 footer{
 	margin-top: 15px;
 }
+ 
 hr{
 	width: 100%;
 	height: 2px;
@@ -21,16 +22,26 @@ hr{
 	display: none;
 	 
 }
+.col{
+	width: 4.5%;
+	float: left;
+	margin-left: 0.25%;
+	margin-right: 0.25%;
+}
 .small_image{
-	width: 5%;
-	height: auto;
-	padding-right: 20px;
+	width: 84%;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	padding: 5px;
+	 
 }
 .main{
 	width: 100%;
 	height: 60%;
 	margin-bottom: 15px;
 }
+
 .clear_float{
 	clear: both;
 }
@@ -41,10 +52,21 @@ hr{
 	height: 500px;
 }
 .show_container{
+	position: relative;
 	width: 70%;
 	background: #000000;
 	text-align: center;
 	float: left;
+}
+.display_name{
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	background-color: transparent;
+	font-size:32px;
+	color:#ffffff;
+	text-align: center;
+	font-weight: bold;
 }
 .awards_list{
 	width: 30%;
@@ -55,6 +77,8 @@ hr{
 	top: 0px;
 
 }
+
+
 .header_container{
 	margin-bottom: 50px;
 }
